@@ -47,6 +47,7 @@ public class StreamMain {
         expressionExecutor.executeExpression(3, 4, FunctionalCalculator::divideAByB);
         */
 
+        //ZADANIE
         PoemDecorator myDecorator = new PoemDecorator();
         myDecorator.decorate("Pierwszy tekst", (textToBeautify) -> "===="+textToBeautify+"====");
         myDecorator.decorate("Drugi tekst", (textToBeautify) -> textToBeautify.toUpperCase());
